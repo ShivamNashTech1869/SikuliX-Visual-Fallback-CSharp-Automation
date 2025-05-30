@@ -1,0 +1,52 @@
+{
+  "uuid": "e5113469-4a62-4376-96de-f6256e389726",
+  "historyId": "146f71f0a7ab5b11e7f9d73f1bd1d5a3",
+  "testCaseId": "6eab55b1aa144054ce92d05a32a53799",
+  "fullName": "SeleniumAutomation:MyNamespace.Tests.HomeTest.TestSearchFunctionality()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "INL-BKLKWG3"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "MyNamespace.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSearchFunctionality"
+    },
+    {
+      "name": "testClass",
+      "value": "HomeTest"
+    }
+  ],
+  "links": [],
+  "name": "TestSearchFunctionality",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name =\"q\"]\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at MyNamespace.PageObjects.HomePage.get_SearchBox() in /home/nashtech/Documents/C#DotNet_POM/SeleniumAutomation/PageObjects/HomePage.cs:line 10\n   at MyNamespace.PageObjects.HomePage.EnterSearchText(String text) in /home/nashtech/Documents/C#DotNet_POM/SeleniumAutomation/PageObjects/HomePage.cs:line 20\n   at MyNamespace.Tests.HomeTest.TestSearchFunctionality() in /home/nashtech/Documents/C#DotNet_POM/SeleniumAutomation/Tests/HomeTest.cs:line 20\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743669733692,
+  "stop": 1743669741500
+}

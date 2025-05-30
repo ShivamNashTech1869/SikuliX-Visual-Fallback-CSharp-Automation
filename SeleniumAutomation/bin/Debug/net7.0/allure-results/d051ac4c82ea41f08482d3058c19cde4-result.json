@@ -1,0 +1,54 @@
+{
+  "uuid": "637dda36-05f8-4fcf-8e3b-e0d345a6f59c",
+  "historyId": "c5167b1834452038a7147c3a28dfa04d",
+  "testCaseId": "ede26dc88fc40ecbcf09efcffc9eba92",
+  "fullName": "SeleniumAutomation:MyNamespace.Tests.LoginTests.TestValidLogin()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "INL-BKLKWG3"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "MyNamespace.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestValidLogin"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    }
+  ],
+  "links": [],
+  "name": "TestValidLogin",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verifies that a user can log in with valid credentials.",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743673495032,
+  "stop": 1743673505672
+}

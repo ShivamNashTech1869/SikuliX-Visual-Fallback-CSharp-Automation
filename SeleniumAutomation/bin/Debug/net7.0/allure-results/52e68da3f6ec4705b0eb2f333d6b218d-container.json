@@ -1,0 +1,12 @@
+{
+  "uuid": "b9015a70-bf61-4218-bd32-b5eb419e695d",
+  "name": "MyNamespace.Tests.LoginTests.TestValidLogin",
+  "children": [
+    "4921eb54-45d6-472c-aca6-e920b34bdec5"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1743669741545,
+  "stop": 1743669749759
+}
