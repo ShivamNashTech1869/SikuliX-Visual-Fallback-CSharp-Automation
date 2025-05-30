@@ -16,7 +16,7 @@ A robust .NET-based test automation framework built using Selenium WebDriver, Sp
 ---
 
 ## 📂 Project Structure
-
+```bash
 SeleniumAutomation/
 ├── Base/ # Common setup like driver init & fallback logic
 ├── Hooks/ # SpecFlow hooks for driver lifecycle
@@ -30,6 +30,7 @@ SeleniumAutomation/
 ├── SeleniumAutomation.csproj
 ├── .gitignore
 └── README.md
+```
 ---
 
 ## ✅ Existing Implementation
