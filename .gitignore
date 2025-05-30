@@ -1,0 +1,51 @@
+# Build results
+bin/
+obj/
+TestResults/
+*.log
+
+# NUnit test results
+*.VisualState.xml
+TestResult.xml
+
+# SpecFlow generated files
+*.feature.cs
+*.feature.cache
+*.feature.steps.cs
+
+# Selenium screenshots, if you generate them
+Screenshots/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Rider project files
+.idea/
+
+# VS Code project settings
+.vscode/
+
+# Mac OS junk
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# ChromeDriver logs
+chromedriver.log
+
+# Auto-generated Allure/Extent Reports
+allure-results/
+extent-report/
+
+# SikuliX temp or compiled files (if used later)
+*.sikuli/*.class
+*.sikuli/*.pyc
+*.sikuli/*.bak
+*.sikuli/.DS_Store
+*.sikuli/*.log
+*.sikuli/target/
+*.sikuli/bin/
+
